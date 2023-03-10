@@ -7,9 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 
 <body>
+    <main>
+        <div class="circle">
+
+        </div>
+        <form>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label for="fullname">Please Enter Your Fullname</label>
+                <input type="text" name="fullname" id="fullname">
+                <label for="email">Please Enter Your Email Address</label>
+                <input type="email" name="email" id="email">
+
+                <span role="alert" id="nameError" aria-hidden="true">
+                    Please enter a valid email address
+                </span>
+
+                <label for="number">Please Enter Your Phone Number</label>
+                <input type="number" name="number" id="number">
+                <div class="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="Sex" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="Sex" value="female">
+                </div>
+                <label for="password">Input Password</label>
+                <input type="password" id="password" name="password">
+                <!-- <input type="button" value="Submit" onclick="onclickFunction()"> -->
+                <button id="submit" onclick="onclickFunction()">Submit</button>
+            </fieldset>
+        </form>
+    </main>
 
 </body>
 
