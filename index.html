@@ -19,24 +19,24 @@
             <fieldset>
                 <legend>Personal Data</legend>
                 <label for="fullname">Please Enter Your Fullname</label>
-                <input type="text" name="fullname" id="fullname">
+                <input type="text" name="fullname" id="fullname" required>
                 <label for="email">Please Enter Your Email Address</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
 
                 <span role="alert" id="nameError" aria-hidden="true">
                     Please enter a valid email address
                 </span>
 
                 <label for="number">Please Enter Your Phone Number</label>
-                <input type="number" name="number" id="number">
+                <input type="number" name="number" id="number" required>
                 <div class="gender">
                     <label for="male">Male</label>
-                    <input type="radio" id="male" name="Sex" value="male">
+                    <input type="radio" id="male" name="Sex" value="male" required>
                     <label for="female">Female</label>
-                    <input type="radio" id="female" name="Sex" value="female">
+                    <input type="radio" id="female" name="Sex" value="female" required>
                 </div>
                 <label for="password">Input Password</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" required>
                 <!-- <input type="button" value="Submit" onclick="onclickFunction()"> -->
                 <button id="submit" onclick="onclickFunction()">Submit</button>
             </fieldset>
