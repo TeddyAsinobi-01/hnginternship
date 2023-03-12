@@ -21,7 +21,10 @@
 //     alert("Details Successfully Updated");
 // }
 
-
+if (all.match) {
+    alert("Form Submitted Successfully")
+    return true;
+}
 
 
 
