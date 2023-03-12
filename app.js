@@ -17,14 +17,13 @@
 //     }
 //     return valid;
 // }
-// function onclickFunction() {
-//     alert("Details Successfully Updated");
-// }
-
-if (all.match) {
+function onclickFunction() {
     alert("Form Submitted Successfully")
-    return true;
+
+
 }
+
+
 
 
 
